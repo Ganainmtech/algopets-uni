@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Author: Sara Jane Kenny -->
+<html lang="en-IE">
+<head>
+	<meta charset="utf-8">
+	<title>Virtual Pet Adoption Service</title>
+	<link rel="stylesheet" href="mediastyles.css">
+</head>
+
+<body>
+
+<header>
+	<h1>Become an Algopet Owner</h1>
+</header>
+
+<nav>
+	| <a href="index.html">Home</a>
+	| <a href="adoptpet.html">Adopt A Pet</a>
+	| <a href="registration.html">Register</a>
+	| <a href="contactus.html">Contact Us</a>
+	| <a href="aboutus.html">About the Team</a>
+	|
+</nav>
+
+<main>
+<h2>Register yourself now to become an Algopet Owner<h2>
+
+<form method="post" action="https://webdevcit.com/displayvalues.php" target="_blank">
+	<p>
+		<label>Full Name: </label><input type="text" name="full name">
+		<label>Email Address: </label><input type="text" name="email address">
+		<label>Date of Birth: </label><input type="text" name="date of birth">
+	</p>
+	
+	<p>
+		<label><input type="radio" name="firstTimeAdoptee" value="Yes">Yes</label>
+		<label><input type="radio" name="firstTimeAdoptee" value="No">No</label>
+	</p>
+	
+	<p>
+		Adopt your Algopet
+		<select name="Algopet">
+			<option value="Lovebird">Lovebird</option>
+			<option value="German Shepard">German Shepard</option>
+			<option value="Bunny">Bunny</option>
+			<option value="Black Labrador">Black Labrador</option>
+		</select>
+	</p>
+	
+	<p>
+		Will you look after your Algopet?
+		<textarea name="delivery" cols="80" rows="5">Explain how:
+		</textarea>
+	</p>
+	
+	<p>
+		Are you interested in any or all the following:
+		<input type="checkbox" name="extraActivities" value="online_social_communities"> Online Social Communitities
+		<input type="checkbox" name="extraActivities" value="multiplayer_challenges"> Multiplayer Challenges
+		<input type="checkbox" name="extraActivities" value="create_a_storyline"> Create Algopet Storyline
+		<input type="checkbox" name="extraActivities" value="create_new_algopet"> Create a new Algopet
+	</p>
+	
+	<p>
+	<input type="submit">
+	<input type="reset">
+	</p>
+		
+</form>
+
+
+
+</main>
+
+<footer>
+<small>Copyright &copy; 2023 Sara Jane Kenny - contact: sarajane@cit.ie</small>
+</footer>
+
+</body>
+</html>

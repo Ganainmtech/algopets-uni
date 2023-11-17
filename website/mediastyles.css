@@ -1,0 +1,76 @@
+body {
+	background-image: linear-gradient(to top, #57c9f1, #00b7ff, #009fff, #5f7dff, #aa47f7);
+	font-family: Futura, Tahoma, sans-serif;
+	width: 900px
+	margin: auto;
+}
+
+header h1 {
+	font-family: Futura, Tahoma, sans-serif;
+	font-size: 45px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	background-image: linear-gradient(to top, #8b008f, #a017a8, #b628c1, #cc38dc, #e247f7);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	
+}	
+
+nav {
+	color: #8b008f;
+	font-size: 25px;
+	padding: 30px;
+	text-align: right;
+	background-color: transparent;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+nav a:hover	{
+	color: purple;
+	font-size: 30px;
+	font-style: italic;
+	text-decoration: none;
+}
+
+main {
+	color: black;
+	text-align: center;
+}
+
+table {
+  width: 100%;
+  border: transparent;
+}
+
+th {
+  height: 50px;
+}
+
+td {
+  text-align: center;
+}
+
+.image-cols {
+	width: 33 %; 
+	float: bottom;
+	}
+	
+.video {
+	float: bottom;
+}
+
+.paragrah {
+	color: black;
+	text-align: left;
+}
+
+footer {
+	text-align:right;
+	color:grey;
+	font-size:small;
+}
+
+
